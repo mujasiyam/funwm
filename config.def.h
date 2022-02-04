@@ -8,7 +8,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "firacoderetina:size=10" };
 static const char dmenufont[]       = "firacoderetina:size=10";
 static const char col_gray1[]       = "#2D2A2E";
-static const char col_gray2[]       = "#a9dc76";
+static const char col_gray2[]       = "#fc9867";
 static const char col_gray3[]       = "#ffd866";
 static const char col_gray4[]       = "#a9dc76";
 static const char col_cyan[]        = "#2D2A2E";
@@ -26,12 +26,14 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class          instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",         NULL,       NULL,       0,            1,           -1 },
-	{ "Emacs",        NULL,       NULL,       1 << 3,       0,           -1 },
-	{ "Thunderbird",  NULL,       NULL,       1 << 6,       0,           -1 },
-	{ "Steam",        NULL,       NULL,       1 << 7,       0,           -1 },
-	{ "Firefox",      NULL,       NULL,       1 << 8,       0,           -1 },
+	/* class                  instance    title       tags mask     isfloating   monitor */
+	{ "Gimp",                 NULL,       NULL,       0,            1,           -1 },
+	{ "Kdenlive",             NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "Emacs",                NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Telegram",             NULL,       NULL,       1 << 6,       0,           -1 },
+	{ "Thunderbird",          NULL,       NULL,       1 << 6,       0,           -1 },
+	{ "Steam",                NULL,       NULL,       1 << 7,       0,           -1 },
+	{ "Firefox",              NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
