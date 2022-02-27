@@ -27,7 +27,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class                  instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",                 NULL,       NULL,       0,            1,           -1 },
+	{ "Gimp",                 NULL,       NULL,       0,            0,           -1 },
+	{ "Qutebrowser",          NULL,       NULL,       0,            0,           -1 },
 	{ "Kdenlive",             NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Emacs",                NULL,       NULL,       1 << 3,       0,           -1 },
 	{ "Telegram",             NULL,       NULL,       1 << 6,       0,           -1 },
