@@ -9,6 +9,9 @@ MANPREFIX = ${PREFIX}/share/man
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
+# FreeBSD (uncomment)
+X11INC = /usr/local/include
+X11LIB = /usr/local/lib
 
 # Xinerama, comment if you don't want it
 XINERAMALIBS  = -lXinerama
@@ -19,6 +22,8 @@ FREETYPELIBS = -lfontconfig -lXft
 FREETYPEINC = /usr/include/freetype2
 # OpenBSD (uncomment)
 FREETYPEINC = ${X11INC}/freetype2
+# FreeBSD (uncomment)
+FREETYPEINC = /usr/local/include/freetype2
 
 # includes and libs
 INCS = -I${X11INC} -I${FREETYPEINC}
