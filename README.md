@@ -1,4 +1,7 @@
 # funwm
+
+[![Join the chat at https://gitter.im/mujalab/FunWM](https://badges.gitter.im/mujalab/FunWM.svg)](https://gitter.im/mujalab/FunWM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
  
 <!---------------------------------------------- START ------------------------------------------------->
 <!-- LOGO -->
