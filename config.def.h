@@ -32,6 +32,7 @@ static const Rule rules[] = {
 	{ "Kdenlive",             NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Emacs",                NULL,       NULL,       1 << 3,       0,           -1 },
 	{ "Telegram",             NULL,       NULL,       1 << 6,       0,           -1 },
+	{ "Spotify",             NULL,       NULL,       1 << 6,       0,           -1 },
 	{ "Thunderbird",          NULL,       NULL,       1 << 6,       0,           -1 },
 	{ "Steam",                NULL,       NULL,       1 << 7,       0,           -1 },
 	{ "Firefox",              NULL,       NULL,       1 << 8,       0,           -1 },
